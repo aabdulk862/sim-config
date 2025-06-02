@@ -5,6 +5,6 @@ logging:
 eureka:
   client:
     register-with-eureka:
-      fetch-registry: true
-      service-url:
-        defaultZone: http://localhost:8761
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761
